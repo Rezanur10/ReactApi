@@ -5,3 +5,10 @@ export function getUserList(params) {
     params: params
   })
 }
+
+
+export function getAdminList(params) {
+  return getApi().get('https://60f2479f6d44f300177885e6.mockapi.io/users?user_type/page/limit', {
+    params: params
+  })
+}

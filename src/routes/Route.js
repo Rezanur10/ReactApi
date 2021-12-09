@@ -3,7 +3,7 @@ import { Redirect } from "react-router-dom";
 
 
 //Product
-import UserList from "../components/Home";
+import UserList from "../components/HomeList";
 
 
 const alllRoutes = [

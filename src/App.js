@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import HomeList from './components/HomeList';
 import Home from './components/Home';
+import AddUser from './components/AddUser';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -17,7 +19,8 @@ function App() {
     // </div>
     // </Router>
     <div className="App">
-      <Home />
+      <AddUser />
+      {/* <HomeList /> */}
     </div>
 
   );
